@@ -2,6 +2,16 @@
 
 Nella repository sono presenti due file per calcolare i valori di fc1 ed fc2 per correggere gli errori sistematici nel calcolo di G.
 
+Per clonare, dalla cartella in cui si vuole mettere la repository:
+```shell
+  git clone https://github.com/saemmie4/Calcolo_fattori_correttivi_esperimento_Cavendish.git
+```
+
+Per entrare nella cartella:
+```shell
+  cd ./Calcolo_fattori_correttivi_esperimento_Cavendish
+```
+
 Per compilare, da dentro la cartella clonata:
 ```shell
   cmake -S ./src -B ./release -DCMAKE_BUILD_TYPE=Release
