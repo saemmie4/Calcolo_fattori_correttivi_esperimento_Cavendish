@@ -5,6 +5,9 @@
 #include <numeric>
 #include <fstream>
 
+//measured parameters
+//b, d, ip, R, H are in meters
+//M is in kg
 double constexpr b = 0.04747;
 double constexpr d = 0.064225;
 double const ip = std::sqrt(b * b + (2 * d * 2 * d));
@@ -13,6 +16,8 @@ double constexpr R = 0.033907917;
 double constexpr H = 0.06987;
 const char *output_filepath = "./output/results_correzione_massa_lontana_fc2.txt";
 
+//to have more or less particles composing the cilinder 
+//change these parameters
 int constexpr X_WIDTH_DIVISIONS = 500;
 int constexpr Y_LENGHT_DIVISIONS = 500;
 int constexpr Z_HEIGHT_DIVISIONS = 500;

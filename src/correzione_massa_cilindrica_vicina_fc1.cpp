@@ -4,13 +4,18 @@
 #include <vector>
 #include <numeric>
 #include <fstream>
-// dst centro sfera - centro cilindro
+
+//measured parameters
+//b, R, H are in meters
+//M is in kg
 double constexpr b = 0.04747;
 double constexpr M = 2.757;
 double constexpr R = 0.033907917;
 double constexpr H = 0.06987;
 const char* output_filepath = "./output/results_correzione_massa_vicina_fc1.txt";
 
+//to have more or less particles composing the cilinder 
+//change these parameters
 int constexpr X_WIDTH_DIVISIONS = 500;
 int constexpr Y_LENGHT_DIVISIONS = 500;
 int constexpr Z_HEIGHT_DIVISIONS = 500;
