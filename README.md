@@ -11,8 +11,8 @@ Per compilare, da dentro la cartella clonata:
 
 Per eseguire, poi:
 ```shell.
-  /release/correzione_fc1
-  /release/correzione_fc2
+  ./release/correzione_fc1
+  ./release/correzione_fc2
 ```
 
 I risultati dei calcoli saranno stampati a schermo e scritti nella cartella ./output
