@@ -1,0 +1,5 @@
+x_radius_divisions = 500
+y_radius_divisions = 500
+z_height_divisions = 500
+number of particles = 393456843
+fc2 = F2perp/F2perps = 0.989098407412004
